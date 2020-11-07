@@ -30,9 +30,9 @@ apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat m
 
 * Config Global Repository
 
-`$ git config --global user.name “nama_user"`
+`$ git config --global user.name ï¿½nama_user"`
 
-`$ git config --global user.email “nama_user”`
+`$ git config --global user.email ï¿½nama_userï¿½`
 
 
 
@@ -84,7 +84,7 @@ Jalankan perintah *git init*, untuk membuat repository local.
  
 Untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktori aktif (repository)
 * disini kita akan coba buat satu file bernama README.md (text file)
-`$ echo “# Latihan 1” >> README.md`
+`$ echo ï¿½# Latihan 1ï¿½ >> README.md`
 * File *README.md* berhasil dibuat.
 ### Menambahkan File baru pada repository
 
@@ -95,8 +95,8 @@ Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add.
 ### `Commit` (Menyimpan perubahan ke database)
 
  
-Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m “komentar commit”
-`$ git commit -m “tulis comentar”`
+Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m ï¿½komentar commitï¿½
+`$ git commit -m ï¿½tulis comentarï¿½`
 * Perubahan berhasil disimpan.
 ### Membuat repository server
 
@@ -140,3 +140,6 @@ Apabila kita menggunakan github, untuk memberikan penjelasan awal pada project y
  
 Penulisan file README.md berbasis teks, dan untuk pemformatannya menggunakan Markdown format.
 * untuk lebih jelasnya, dapat anda pelajari cara penggunaan markdown pada url berikut: https://guides.github.com/features/masteringmarkdown/ 
+ ![latihanvcs](foto/latihanvcs.png)
+
+ ![logo](foto/logo.png)
